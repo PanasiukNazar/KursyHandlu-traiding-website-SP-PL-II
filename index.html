@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>KursyHandlu</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <div
+            class="container-fluid fixed-top px-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div
+                class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex"
+            >
+                <div class="col-lg-12 px-5 text-start">
+                    <small
+                        ><i class="fa fa-map-marker-alt me-2"></i>ul, Wybrzeże
+                        Kościuszkowskie 31/33/908, 00-379 Warszawa,
+                        Poland</small
+                    >
+                    <small class="ms-4"
+                        ><i class="fa fa-envelope me-2"></i
+                        >kursy_handlu@gmail.com</small
+                    >
+                </div>
+            </div>
+            <nav
+                class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn"
+                data-wow-delay="0.1s"
+            >
+                <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                    <h1 class="fw-bold text-primary m-0">
+                        Kursy<span class="text-white">Handlu</span>
+                    </h1>
+                </a>
+                <button
+                    type="button"
+                    class="navbar-toggler me-4"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto p-4 p-lg-0">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Strona główna</a
+                        >
+                        <a href="#about" class="nav-item nav-link">O kursie</a>
+                        <a href="#service" class="nav-item nav-link">Kursy</a>
+                        <a href="#team" class="nav-item nav-link"
+                            >Naucz się handlować</a
+                        >
+                        <a href="#contact" class="nav-item nav-link">Kontakt</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div
+                id="header-carousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 pt-5">
+                                        <h1
+                                            class="display-4 text-white mb-3 animated slideInDown"
+                                        >
+                                            Handel na giełdzie dla
+                                            początkujących
+                                        </h1>
+                                        <p
+                                            class="fs-5 text-white-50 mb-5 animated slideInDown"
+                                        >
+                                            Zdobądź wiedzę, jak handlować na
+                                            giełdzie i rozpocznij swoją podróż w
+                                            świecie inwestycji. Nasz darmowy
+                                            kurs pomoże Ci opanować podstawy
+                                            handlu, ucząc krok po kroku, jak
+                                            skutecznie inwestować.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-2.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 pt-5">
+                                        <h1
+                                            class="display-4 text-white mb-3 animated slideInDown"
+                                        >
+                                            Naucz się handlować
+                                        </h1>
+                                        <p
+                                            class="fs-5 text-white-50 mb-5 animated slideInDown"
+                                        >
+                                            Nasz kurs to świetny sposób na naukę
+                                            handlu na giełdzie od podstaw.
+                                            Oferujemy materiały edukacyjne,
+                                            które pomogą Ci zrozumieć, jak
+                                            działa rynek i jak rozpocząć
+                                            inwestowanie w sposób
+                                            odpowiedzialny.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Poprzedni</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Następny</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div id="about" class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div
+                            class="position-relative overflow-hidden h-100"
+                            style="min-height: 400px"
+                        >
+                            <img
+                                class="position-absolute w-100 h-100 pt-5 pe-5"
+                                src="img/about-1.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                            <img
+                                class="position-absolute top-0 end-0 bg-white ps-2 pb-2"
+                                src="img/about-2.jpg"
+                                alt=""
+                                style="width: 200px; height: 200px"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                            <div
+                                class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                            >
+                                O kursie
+                            </div>
+                            <h1 class="display-6 mb-5">
+                                Twój partner w nauce handlu na giełdzie i
+                                zdobywaniu umiejętności inwestycyjnych
+                            </h1>
+                            <div
+                                class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4"
+                            >
+                                <p class="text-dark mb-2">
+                                    Nasz darmowy kurs "Handel na giełdzie dla
+                                    początkujących" jest zaprojektowany z myślą
+                                    o osobach, które dopiero zaczynają swoją
+                                    przygodę z inwestowaniem. Uczymy, jak
+                                    analizować rynek, jakie strategie handlowe
+                                    stosować i jak unikać najczęstszych błędów,
+                                    aby podejmować świadome decyzje
+                                    inwestycyjne.
+                                </p>
+                            </div>
+                            <p class="mb-5">
+                                Dzięki naszemu kursowi, nauczysz się, jak
+                                rozpoznać możliwości inwestycyjne oraz jak
+                                budować swoją strategię handlową. Jesteśmy
+                                tutaj, aby pomóc Ci rozwinąć umiejętności, które
+                                pozwolą Ci skutecznie działać na rynku
+                                giełdowym.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Causes Start -->
+        <div class="container-xxl bg-light my-5 py-5">
+            <div class="container py-5">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <div
+                        class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                    >
+                        Nasze funkcje
+                    </div>
+                    <h1 class="display-6">
+                        Darmowy kurs: Handel na giełdzie dla początkujących
+                    </h1>
+                    <p class="mb-5">
+                        Zarejestruj się na nasz darmowy kurs, aby nauczyć się,
+                        jak handlować na giełdzie od podstaw. Kurs jest
+                        stworzony dla osób, które chcą poznać świat inwestycji,
+                        ucząc się skutecznych metod handlowych. Nasze materiały
+                        edukacyjne poprowadzą Cię krok po kroku, pokazując, jak
+                        zacząć inwestować na rynku giełdowym.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100"
+                        >
+                            <div class="text-center p-4 pt-0">
+                                <h5 class="mb-3 mt-3">
+                                    Zrozum podstawy handlu na giełdzie
+                                </h5>
+                                <p>
+                                    Kurs pomoże Ci poznać podstawowe zasady
+                                    handlu na giełdzie, jak działa rynek, jakie
+                                    instrumenty inwestycyjne możesz
+                                    wykorzystywać oraz jak podejmować pierwsze
+                                    decyzje inwestycyjne.
+                                </p>
+                            </div>
+                            <div class="position-relative mt-auto">
+                                <img
+                                    class="img-fluid"
+                                    src="img/courses-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100"
+                        >
+                            <div class="text-center p-4 pt-0">
+                                <h5 class="mb-3 mt-3">
+                                    Naucz się analizować rynek
+                                </h5>
+                                <p>
+                                    Nauczysz się, jak analizować dane rynkowe i
+                                    wykorzystywać narzędzia analityczne, które
+                                    pomogą Ci zrozumieć, jak działają zmiany cen
+                                    na giełdzie oraz jak podejmować bardziej
+                                    świadome decyzje inwestycyjne.
+                                </p>
+                            </div>
+                            <div class="position-relative mt-auto">
+                                <img
+                                    class="img-fluid"
+                                    src="img/courses-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100"
+                        >
+                            <div class="text-center p-4 pt-0">
+                                <h5 class="mb-3 mt-3">
+                                    Poznaj strategie handlowe
+                                </h5>
+                                <p>
+                                    Nasz kurs nauczy Cię, jak tworzyć strategie
+                                    handlowe, które zwiększą Twoje szanse na
+                                    sukces na giełdzie. Dowiesz się, jakie
+                                    techniki stosować w różnych warunkach
+                                    rynkowych i jak kontrolować ryzyko.
+                                </p>
+                            </div>
+                            <div class="position-relative mt-auto">
+                                <img
+                                    class="img-fluid"
+                                    src="img/courses-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Causes End -->
+
+        <!-- Service Start -->
+        <div id="service" class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <div
+                        class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                    >
+                        Co robimy
+                    </div>
+                    <h1 class="display-6">
+                        Darmowy kurs: Naucz się handlować na giełdzie
+                    </h1>
+                    <p class="mb-5">
+                        Kurs jest przeznaczony dla osób, które chcą poznać
+                        zasady handlu na giełdzie i rozpocząć swoją przygodę z
+                        inwestowaniem. Nasze materiały edukacyjne obejmują
+                        wszystkie podstawowe zagadnienia związane z rynkiem
+                        finansowym, analizą techniczną i strategią inwestycyjną.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="service-item bg-white text-center h-100 p-4 p-xl-5"
+                        >
+                            <img
+                                class="img-fluid mb-4"
+                                src="img/icon-1.png"
+                                alt=""
+                            />
+                            <h4 class="mb-3">Zrozumienie rynku giełdowego</h4>
+                            <p class="mb-4">
+                                Naucz się, jak działa rynek giełdowy i jak
+                                analizować jego zmiany, aby podejmować trafne
+                                decyzje inwestycyjne.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="service-item bg-white text-center h-100 p-4 p-xl-5"
+                        >
+                            <img
+                                class="img-fluid mb-4"
+                                src="img/icon-2.png"
+                                alt=""
+                            />
+                            <h4 class="mb-3">Techniki analizy rynku</h4>
+                            <p class="mb-4">
+                                Naucz się analizować dane rynkowe, wykorzystywać
+                                wskaźniki i narzędzia analityczne, które pomogą
+                                Ci przewidzieć przyszłe zmiany na rynku.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="service-item bg-white text-center h-100 p-4 p-xl-5"
+                        >
+                            <img
+                                class="img-fluid mb-4"
+                                src="img/icon-3.png"
+                                alt=""
+                            />
+                            <h4 class="mb-3">Strategie inwestycyjne</h4>
+                            <p class="mb-4">
+                                Poznaj różne strategie inwestycyjne, które
+                                pomogą Ci skutecznie inwestować na giełdzie i
+                                minimalizować ryzyko.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Donate Start -->
+        <div class="container-fluid donate my-5 py-5" data-parallax="scroll">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div
+                            class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                        >
+                            Nasze Podejście
+                        </div>
+                        <h1 class="display-6 text-white mb-5">
+                            Strukturalna Ścieżka Nauki Handlu na Giełdzie dla
+                            Początkujących
+                        </h1>
+                        <p class="text-white-50 mb-0">
+                            Nasze podejście do kursu "Handel na giełdzie dla
+                            początkujących" opiera się na jasnej i przystępnej
+                            ścieżce, która umożliwia szybkie przyswajanie
+                            umiejętności niezbędnych do rozpoczęcia handlu.
+                            Naszym celem jest pomóc Ci nauczyć się handlować i
+                            rozwijać pewność siebie, krok po kroku. Kurs
+                            obejmuje podstawowe zasady działania rynków
+                            finansowych oraz skuteczne strategie handlowe.
+                            Dzięki naszym materiałom edukacyjnym, szkoleniom i
+                            wsparciu, zyskasz solidne fundamenty w handlu
+                            giełdowym i nauczysz się analizować sytuację
+                            rynkową. Z nami będziesz gotowy na wyzwania rynków
+                            finansowych w 2024 roku.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img
+                            class="donate-image"
+                            src="img/carousel-3.jpg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Donate End -->
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5" id="team">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <div
+                        class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                    >
+                        Nasi Instruktorzy
+                    </div>
+                    <h1 class="display-6">
+                        Eksperci w Nauczaniu Handlu na Giełdzie dla
+                        Początkujących
+                    </h1>
+                    <p class="mb-5">
+                        Nasz zespół składa się z doświadczonych
+                        profesjonalistów, którzy przekażą Ci najważniejsze
+                        umiejętności związane z handlem na giełdzie. Każdy z
+                        naszych instruktorów posiada szeroką wiedzę o rynkach
+                        finansowych i praktyczne doświadczenie w nauczaniu
+                        początkujących traderów. Dzięki naszej pasji do
+                        edukacji, pomożemy Ci nauczyć się handlować i zdobyć
+                        pewność w podejmowaniu decyzji inwestycyjnych na rynku.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Anna Kowalska</h5>
+                                <p class="text-primary">
+                                    Instruktorka Handlu na Giełdzie
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Piotr Nowak</h5>
+                                <p class="text-primary">
+                                    Specjalista w Analityce Rynkowej
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Monika Wójcik</h5>
+                                <p class="text-primary">
+                                    Ekspert ds. Strategii Handlowych
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Jan Zieliński</h5>
+                                <p class="text-primary">Instruktor Giełdowy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <div
+                        class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                    >
+                        Opinie
+                    </div>
+                    <h1 class="display-6">
+                        Co nasi uczestnicy kursu mówią o naszym kursie "Handel
+                        na giełdzie dla początkujących"
+                    </h1>
+                    <p class="mb-5">
+                        Cieszymy się, że nasze kursy mają tak pozytywny wpływ na
+                        uczestników. Dzięki naszemu podejściu do nauki handlu na
+                        giełdzie dla początkujących, pomagamy ludziom zdobywać
+                        umiejętności potrzebne do odniesienia sukcesu na rynkach
+                        finansowych. Oto, co niektórzy z naszych uczestników
+                        mówią o kursie:
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-1.jpg"
+                            style="width: 100px; height: 100px"
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                "Udział w kursie zmienił moje podejście do
+                                handlu na giełdzie. Dzięki materiałom i
+                                praktycznym wskazówkom nauczyłem się jak
+                                podejmować mądre decyzje inwestycyjne. Kurs
+                                pozwolił mi zrozumieć podstawy handlu i teraz
+                                czuję się pewniej, inwestując na rynku."
+                            </p>
+                            <h5 class="mb-1">Anna Kowalska</h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-2.jpg"
+                            style="width: 100px; height: 100px"
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                "Kurs 'Handel na giełdzie dla początkujących'
+                                dał mi solidne podstawy do rozpoczęcia
+                                inwestowania. Instruktorzy świetnie tłumaczyli
+                                skomplikowane zagadnienia, a materiały kursowe
+                                były bardzo pomocne. Teraz czuję się pewnie
+                                podejmując decyzje na giełdzie."
+                            </p>
+                            <h5 class="mb-1">Piotr Nowak</h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-3.jpg"
+                            style="width: 100px; height: 100px"
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                "Kurs był bardzo dobrze zorganizowany i
+                                dostarczył mi wszystkich informacji, które
+                                potrzebowałem, aby zacząć handlować na giełdzie.
+                                Dzięki temu kursowi naprawdę nauczyłem się, jak
+                                analizować rynek i podejmować decyzje, które
+                                zwiększają moje szanse na sukces."
+                            </p>
+                            <h5 class="mb-1">Marek Wiśniewski</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5" id="contact">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div
+                            class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                        >
+                            Kontakt
+                        </div>
+                        <h1 class="display-6 mb-5">
+                            Zacznij swoją drogę do nauki handlu na giełdzie
+                        </h1>
+                        <p class="mb-4">
+                            Jesteśmy tutaj, aby pomóc Ci rozpocząć naukę handlu
+                            na giełdzie. Jeśli chcesz dowiedzieć się, jak
+                            efektywnie inwestować, nasz kurs "Handel na giełdzie
+                            dla początkujących" jest idealny dla Ciebie.
+                            Skontaktuj się z nami już dziś, aby dowiedzieć się,
+                            jak możemy pomóc Ci nauczyć się handlować i
+                            rozpocząć inwestowanie na giełdzie z pewnością i
+                            wiedzą.
+                        </p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Twoje imię"
+                                        />
+                                        <label for="name">Twoje imię</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Twój email"
+                                        />
+                                        <div
+                                            id="result"
+                                            style="color: red; font-size: 12px"
+                                        ></div>
+                                        <label for="email">Twój email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="subject"
+                                            placeholder="Temat"
+                                        />
+                                        <label for="subject">Temat</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control"
+                                            placeholder="Wpisz wiadomość"
+                                            id="message"
+                                            style="height: 100px"
+                                        ></textarea>
+                                        <label for="message">Wiadomość</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        class="btn btn-primary py-2 px-3 me-3"
+                                        id="submit"
+                                        onclick="sendForm()"
+                                    >
+                                        Wyślij wiadomość
+                                        <div
+                                            class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                                        >
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div
+                        class="col-lg-6 wow fadeIn"
+                        data-wow-delay="0.5s"
+                        style="min-height: 450px"
+                    >
+                        <div
+                            class="position-relative rounded overflow-hidden h-100"
+                        >
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d146244.55521744557!2d20.997089459073127!3d52.21854200940034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc5742bb8abb%3A0xa73cc98e87e9ff6f!2sBest%20Trading%20Poland%20Sp.%20z%20o.o.!5e0!3m2!1suk!2sua!4v1730985573533!5m2!1suk!2sua"
+                                class="position-relative w-100 h-100"
+                                frameborder="0"
+                                style="min-height: 450px; border: 0"
+                                allowfullscreen=""
+                                aria-hidden="false"
+                                tabindex="0"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h1 class="fw-bold text-primary m-0">
+                            Kursy<span class="text-white">Handlu</span>
+                        </h1>
+                        <p>
+                            Dziękujemy za odwiedzenie naszej strony. Jesteśmy po
+                            to, aby pomóc Ci w rozpoczęciu przygody z handlem na
+                            giełdzie. Nasz darmowy kurs "Handel na giełdzie dla
+                            początkujących" pomoże Ci nauczyć się handlować,
+                            zrozumieć podstawy inwestowania i opracować
+                            skuteczną strategię handlową. Dzięki naszemu
+                            kursowi, zyskasz solidne podstawy, które pozwolą Ci
+                            rozwijać swoje umiejętności i zwiększyć pewność
+                            siebie w handlu na giełdzie.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Adres</h5>
+                        <p>
+                            <i class="fa fa-map-marker-alt me-3"></i>ul,
+                            Wybrzeże Kościuszkowskie 31/33/908, 00-379 Warszawa,
+                            Poland
+                        </p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+48784654000</p>
+                        <p>
+                            <i class="fa fa-envelope me-3"></i
+                            >kursy_handlu@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Szybkie linki</h5>
+                        <a class="btn btn-link" href="#about">O nas</a>
+                        <a class="btn btn-link" href="#contact"
+                            >Skontaktuj się z nami</a
+                        >
+                        <a class="btn btn-link" href="#services">Nasze kursy</a>
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Warunki korzystania</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Polityka prywatności</a
+                        >
+                    </div>
+                </div>
+                <p>
+                    Rozpoczynając swoją przygodę z handlem, ważne jest, aby być
+                    świadomym ryzyk związanych z inwestowaniem. Niezależnie od
+                    tego, czy handlujesz akcjami, walutami, czy surowcami,
+                    handel wiąże się z ryzykiem, które może prowadzić zarówno do
+                    zysków, jak i strat finansowych. Oto niektóre z kluczowych
+                    ryzyk, które powinien zrozumieć każdy trader: Ryzyko rynkowe
+                    Ryzyko rynkowe odnosi się do możliwości utraty pieniędzy z
+                    powodu wahań cen aktywów na rynku. Ryzyko to jest
+                    uzależnione od wielu czynników, takich jak wydarzenia
+                    gospodarcze, wyniki firm, zmiany polityczne, a nawet klęski
+                    żywiołowe. Ceny aktywów mogą nieoczekiwanie wzrosnąć lub
+                    spaść, wpływając na Twoje pozycje.
+                </p>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top">
+            <i class="bi bi-arrow-up"></i>
+        </a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Zgoda na pliki cookie</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Ta strona internetowa używa plików cookie, aby zapewnić Ci
+                    lepsze i bardziej odpowiednie doświadczenie podczas
+                    przeglądania strony.
+                    <a href="terms-of-use.html">Dowiedz się więcej...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Akceptuj</button>
+                <button class="cookie-button" id="declineBtn">Odrzuć</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/parallax/parallax.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
